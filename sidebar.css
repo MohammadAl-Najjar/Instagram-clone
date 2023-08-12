@@ -1,0 +1,106 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 350px;
+  border-right: 1px solid rgb(207, 207, 207);
+}
+
+.main-logo-container{
+  width: 220;
+  height: 92;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.main-logo-img{
+  width: 100px;
+  margin-top: 30px;
+}
+
+.sidebar-buttons{
+  margin-left: 5px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center; 
+  margin-top: 10px;
+  margin-right: 10px; 
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.icon-container:hover{
+  background-color: rgb(252, 242, 242);
+}
+
+.icon-container:hover .icon-img{
+  width: 26px;
+}
+
+.icon-img{
+  margin-right: 20px;
+  width: 24px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.messages-img{
+  width: 32px;
+  margin-right: 20px;
+  margin-left: 7px;
+  transition: 0.2s;
+}
+
+.icon-container:hover .messages-img{
+  width: 34px;
+}
+
+.pp-img{
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 20px;
+  transition: 0.2s;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.icon-container:hover .pp-img{
+  width: 25px;
+}
+
+.more-container{
+  display: flex;
+  align-items: center; 
+  width: 335px;
+  margin-top: 10px; 
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  bottom: 10px;
+}
+
+.more-img{
+  width:30;
+  transition: 0.2s;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.more-container:hover{
+  background-color: rgb(252, 242, 242);
+}
+
+.more-container:hover .more-img{
+  width: 34px;
+}

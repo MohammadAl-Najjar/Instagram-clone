@@ -1,0 +1,152 @@
+.main{
+  height: 1300px;
+  margin-left: 350px;
+}
+
+.top{
+  height: 400px;
+  position: relative;
+}
+
+.main-pp{
+  display: inline-block;
+  margin: 20px 0 0 550px;
+}
+
+.main-pp-img{
+  border-radius: 100px;
+  border: solid 1px rgb(184, 184, 184);
+}
+
+.profile-name{
+  display: flex;
+  margin: 10px 0 0 100px;
+  width: 520px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name{
+  font-size: 20px;
+}
+
+.edit-profile-button{
+  border: 0;
+  background-color: rgb(238, 238, 238);
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.archive-button{
+  border: 0;
+  background-color: rgb(238, 238, 238);
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 32px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.edit-profile-button:hover{
+  background-color: rgb(206, 206, 206);
+}
+
+.archive-button:hover{
+  background-color: rgb(206, 206, 206);
+}
+
+.profile-info{
+  height: 225px;
+  display: flex;
+  align-items:start;
+}
+
+.static-reels{
+  height: 175px;
+}
+
+.wierd-img{
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.gear-img{
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.stats-self{
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 25px;
+}
+
+.number{
+  font-weight: 600;
+}
+
+.stats-container{
+  margin-left: 100px;
+}
+
+.he{
+  font-size: 14px;
+  color: gray;
+}
+
+.add-img{
+  width:87px;
+}
+
+.reels{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 800px;
+}
+
+.add-button{
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.gray-border{
+  position: absolute;
+  top: 400px;
+  width: 900px;
+  border-top: 1px solid rgb(209, 209, 209);
+  left: 500px;
+}
+
+.rights{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.bottom{
+  display: flex;
+  position: absolute;
+  bottom: 70px;
+  right: 400px;
+  align-items: center;
+  flex-direction: column;
+  line-height: 50px;
+  color: rgb(155, 155, 155);
+}
+
+.final-rights{
+  display: block;
+}
